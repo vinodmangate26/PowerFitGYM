@@ -22,11 +22,12 @@ nav a {
 }
 
 .hero {
-    background: url("images/gymbackround.jpg") center/cover;
+    background: url("images/gymbackround.jpg") center / cover no-repeat;
     color: white;
     padding: 80px 20px;
     text-align: center;
 }
+
 
 section {
     padding: 40px 20px;
@@ -64,3 +65,57 @@ footer {
     padding: 20px;
 }
 
+.schedule-table {
+    width: 90%;
+    margin: 30px auto;
+    border-collapse: collapse;
+    background: #fff;
+    box-shadow: 0 0 12px rgba(0,0,0,0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.schedule-table th,
+.schedule-table td {
+    padding: 12px 15px;
+    text-align: center;
+}
+
+.schedule-table thead {
+    background: #000;
+    color: #fff;
+}
+
+.schedule-table tbody tr {
+    border-bottom: 1px solid #ddd;
+}
+
+.schedule-table tbody tr:hover {
+    background: #f2f2f2;
+    cursor: pointer;
+}
+
+.schedule-table tbody tr:last-child {
+    border-bottom: none;
+}
+.cta {
+    background: #111;
+    color: #fff;
+    padding: 50px 20px;
+    text-align: center;
+}
+
+.join-btn {
+    margin-top: 15px;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: bold;
+    background: #ffcc00;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+}
+
+.join-btn:hover {
+    background: #ffaa00;
+}
