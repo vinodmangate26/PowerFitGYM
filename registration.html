@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>PowerFit Gym - Registration</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<style>
+body{
+    margin:0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)),
+                url("images/gymbackround.jpg") center/cover no-repeat;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    height:100vh;
+}
+
+.form-container{
+    background:#fff;
+    padding:40px;
+    width:400px;
+    border-radius:12px;
+    box-shadow:0 0 15px rgba(0,0,0,0.4);
+}
+
+.form-container h2{
+    text-align:center;
+    margin-bottom:20px;
+}
+
+input, select{
+    width:100%;
+    padding:10px;
+    margin:10px 0;
+    border-radius:6px;
+    border:1px solid #ccc;
+}
+
+button{
+    width:100%;
+    padding:12px;
+    background:#ffcc00;
+    border:none;
+    font-weight:bold;
+    border-radius:25px;
+    cursor:pointer;
+}
+
+button:hover{
+    background:#ffaa00;
+}
+</style>
+</head>
+
+<body>
+
+<div class="form-container">
+<h2>Gym Membership Registration</h2>
+
+<form action="success.html">
+<input type="text" placeholder="Full Name" required>
+<input type="tel" placeholder="Mobile Number" required>
+<input type="number" placeholder="Age" required>
+
+<select required>
+<option value="">Select Branch</option>
+<option>Shelgaon</option>
+<option>Sillod</option>
+</select>
+
+<select required>
+<option value="">Select Membership Plan</option>
+<option>1 Month</option>
+<option>3 Months</option>
+<option>6 Months</option>
+<option>12 Months</option>
+</select>
+
+<button type="submit">Register Now</button>
+</form>
+
+</div>
+
+</body>
+</html>
